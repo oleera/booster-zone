@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function
-    () {
+    Steps() {
     return (
         <div className='bg-gray-300 pt-10 pb-36 px-8'>
             <h2 className='text-5xl text-center mx-16 py-20 text-gra'>How it works</h2>
@@ -110,3 +110,5 @@ export default function
         </div>
     )
 }
+
+Steps
