@@ -43,6 +43,20 @@ export default function Form() {
                     </div>
 
                     <div className="">
+                        <label htmlFor="post" className="block text-sm font-medium text-gray-700">
+                            Describe the post you want to boost
+                        </label>
+
+                        <textarea
+                            type="text"
+                            required
+                            name="post"
+                            className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                            placeholder="For e.g. first post"
+                        />
+                    </div>
+
+                    <div className="">
                         <label htmlFor="service" className="block text-sm font-medium text-gray-700">
                             Select a booster service
                         </label>

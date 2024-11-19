@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="px-3 mb-6  mx-auto w-11/12 bg-white rounded-xl">
                     <div className="sm:flex items-stretch justify-between grow lg:mb-0  py-5 px-5">
                         <div className="flex flex-col flex-wrap justify-center mb-5 mr-3 lg:mb-0">
-                            <span className="my-0 flex flex-row text-dark font-semibold text-[1.35rem]/[1.2] justify-center">
+                            <span className="my-0 flex flex-row text-dark font-semibold text-[1.35rem]/[1.2]">
                                 <FaTiktok fillOpacity={1} stopColor='' />
                                 <span className='text-pink-500'> Booster</span> <span> Nepal</span>
                             </span>

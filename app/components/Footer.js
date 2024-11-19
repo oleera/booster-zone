@@ -6,13 +6,13 @@ export default function Footer() {
     return (
         <footer className="bg-blue-100">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-                <div className="sm:flex sm:items-center sm:justify-between">
+                <div className="sm:flex sm:items-center sm:justify-center md:justify-between">
                     <span className="my-0 flex flex-row text-dark font-semibold text-[1.35rem]/[1.2] justify-center">
                         <FaTiktok fillOpacity={1} stopColor='' />
                         <span> Booster Nepal</span>
                     </span>
 
-                    <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
+                    <ul className="my-8 flex lg:justify-start sm:justify-center gap-6 sm:mt-0">
                         <li>
                             <a
                                 href="https://www.tiktok.com/@tiktok.booster75"
@@ -38,8 +38,9 @@ export default function Footer() {
                             </a>
                         </li>
                     </ul>
-                    <img src='./qr.png' style={{height:'200px'}}/>
-
+                    <div className='sm:flex sm:justify-center'>
+                        <img className='' src='./qr.png' style={{ height: '200px' }} />
+                    </div>
                 </div>
 
 

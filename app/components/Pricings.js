@@ -74,16 +74,24 @@ export default function Pricings() {
                             <span className="block text-2xl font-semibold">TikTok Followers</span>
                         </div>
                     </div>
-                    <ul className="mb-7 font-medium text-gray-500">
-                        <li className="flex text-lg mb-2">
-                            <RxCross1 />
-                            <span className="ml-3">This service is not available at the moment. <span className="text-black">We will be back soon with this service.</span></span>
+                    <ul className="mb-10 font-medium text-xl">
+                        <li className="flex mb-6">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
+                            <span className="ml-3">50 Followers <span className="text-gray-400">@Rs. 100</span></span>
+                        </li>
+                        <li className="flex mb-6">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
+                            <span className="ml-3">100 Followers <span className="text-gray-400">@Rs.150</span></span>
+                        </li>
+                        <li className="flex mb-6">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
+                            <span className="ml-3">200 Followers <span className="text-gray-400">@Rs.200</span></span>
                         </li>
                     </ul>
-                    {/*                     <a href="#/" className="flex justify-center items-center bg-pink-500 rounded-xl py-5 px-4 text-center text-white text-xl">
+                    <a href="#/" className="flex justify-center items-center bg-pink-500 rounded-xl py-5 px-4 text-center text-white text-xl">
                         Choose
                         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2" />
-                    </a> */}
+                    </a>
                 </div>
 
             </div>
