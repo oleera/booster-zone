@@ -11,7 +11,7 @@ export default function Form() {
                     Fill the form, make payment using the QR code below to make things faster and Send your request.
                 </p>
 
-                <form action="https://formsubmit.co/oleeranjan@gmail.com" method="POST" className="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8">
+                <form action="https://formsubmit.co/d1aeb935081533ec05ea7ad52868c310" method="POST" className="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8">
                     <p className="text-center text-lg font-medium">Provide your information</p>
 
                     <div className="">
